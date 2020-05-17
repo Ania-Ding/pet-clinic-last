@@ -1,4 +1,4 @@
-package guru.springframwork.petcliniclast;
+package petcliniclast;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
