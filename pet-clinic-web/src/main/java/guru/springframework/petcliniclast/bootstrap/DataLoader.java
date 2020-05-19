@@ -4,7 +4,6 @@ import guru.springframework.petcliniclast.model.Owner;
 import guru.springframework.petcliniclast.model.Vet;
 import guru.springframework.petcliniclast.services.OwnerService;
 import guru.springframework.petcliniclast.services.VetService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -30,8 +29,8 @@ public class DataLoader implements CommandLineRunner {
         ownerService.save(owner1);
 
         Owner owner2 = new Owner();
-        owner1.setFirstName("Fiona");
-        owner1.setLastName("Glenanne");
+        owner2.setFirstName("Fiona");
+        owner2.setLastName("Glenanne");
 
         ownerService.save(owner2);
 
@@ -44,8 +43,8 @@ public class DataLoader implements CommandLineRunner {
         vetService.save(vet1);
 
         Vet vet2 = new Vet();
-        vet1.setFirstName("Sam");
-        vet1.setLastName("Axe");
+        vet2.setFirstName("Sam");
+        vet2.setLastName("Axe");
 
         vetService.save(vet2);
 
