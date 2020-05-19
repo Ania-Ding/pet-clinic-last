@@ -15,7 +15,7 @@ import java.io.Serializable;
 public class BaseEntity implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)  //sql auto next number for us
+    @GeneratedValue(strategy = GenerationType.IDENTITY)  //sql auto next number
     private Long id;
 
     public Long getId() {
